@@ -1,7 +1,7 @@
 # RocketLauncher Game C++
 ***This is my little game that uses the SFML library.***
 
-***"Wibu Time!** folder is the folder containing the project running on Visual Studio.*
+***Wibu Time!** folder is the folder containing the project running on Visual Studio.*
 
 ***testCPP.cpp** file is the code I wrote to convert a 1-dimensional array to a matrix for map drawing (you can read about my map creation below)*
 
