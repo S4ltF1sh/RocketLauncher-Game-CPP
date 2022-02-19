@@ -14,11 +14,11 @@ You can adjust level and total number of deaths in Map.txt.
 
 Step 1:
 
-I use tiled to draw the map as I want, to do this I need a game asset:
+_I use tiled to draw the map as I want, to do this I need a game asset:
 
-_I used: https://pixelfrog-assets.itch.io/pixel-adventure-1 _  //I designed the rocket myself :D
+*I used:* https://pixelfrog-assets.itch.io/pixel-adventure-1 _  //I designed the rocket myself :D
 
-To use Tiled easily, you can refer to some instructions:
+_To use Tiled easily, you can refer to some instructions:
 
 https://doc.mapeditor.org/en/stable/manual/introduction/#getting-started //Getting started with Tiled.
 
@@ -28,12 +28,12 @@ https://doc.mapeditor.org/en/stable/manual/terrain/ //How to use terrain sets.
 
 Step 2:
 
-I save the map file as json.
+_I save the map file as json.
 
-Open the saved json file and copy data from the array "data" in that file.
+_And then Open the saved json file and copy data from the array "data" in that file.
 ![image](https://user-images.githubusercontent.com/84552830/154813639-d44eef7f-7f76-48f9-a907-5c62d51570c1.png)
 
-Then paste that data into the array section in **TestCPP.cpp**, run the code and it will help you convert the data just now into matrix form.
+_And paste that data into the array section in **TestCPP.cpp**, run the code and it will help you convert the data just now into matrix form.
 ![image](https://user-images.githubusercontent.com/84552830/154813668-ad74665f-1905-44c0-9957-68fc8bd692ab.png)
 
 //You can change the number of row and col depending on the number of tiles in your map.
@@ -46,7 +46,7 @@ Then paste that data into the array section in **TestCPP.cpp**, run the code and
 
 Step 3:
 
-Copy the result that the conversion code prints out and save it to a file so that when the game loads, you will open that file and get the data from it.
+_Copy the result that the conversion code prints out and save it to a file so that when the game loads, you will open that file and get the data from it.
 ![image](https://user-images.githubusercontent.com/84552830/154814162-c51a9632-965b-4e6f-aa48-e3350aa8bac4.png)
 
 //load data from Map.txt file:
@@ -58,7 +58,7 @@ Copy the result that the conversion code prints out and save it to a file so tha
 ![image](https://user-images.githubusercontent.com/84552830/154814349-a08ef82b-227f-408c-84d7-b36cd3816d10.png)
 ![image](https://user-images.githubusercontent.com/84552830/154814372-8209449d-defd-404d-bdb8-e9e7614e1600.png)
 
-You can modify each map by modifying the Map files in the folder **MapForm** by following name of map's pieces in folder **Wibu time!\Wibu time!\Data\Textures\Map**
+_You can modify each map by modifying the Map files in the folder **MapForm** by following name of map's pieces in folder **Wibu time!\Wibu time!\Data\Textures\Map**
 
 
 ***My game learned a lot about Resource Manager, Rocket Stage and Game Stage from:*** 
