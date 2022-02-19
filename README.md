@@ -55,8 +55,12 @@ Step 3:
 _Copy the result that the conversion code prints out and save it to a file so that when the game loads, you will open that file and get the data from it.
 ![image](https://user-images.githubusercontent.com/84552830/154814162-c51a9632-965b-4e6f-aa48-e3350aa8bac4.png)
 
+![image](https://user-images.githubusercontent.com/84552830/154815012-8947f0ca-3ecb-438d-b303-930ee0f97426.png)
+
 //load data from Map.txt file:
 ![image](https://user-images.githubusercontent.com/84552830/154814209-579fc036-b582-4605-b672-eecfe22a6cd2.png)
+
+
 
 //I draw the map based on the name of map's pieces. Each piece will have different functions, 
 
