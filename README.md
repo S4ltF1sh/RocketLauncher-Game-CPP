@@ -11,7 +11,9 @@ You can adjust level and total number of deaths in Map.txt.
 ![image](https://user-images.githubusercontent.com/84552830/154812812-7e6cf1a2-f448-4a78-bd2f-a73ca7da5383.png)
 
 ***How to create map***
-Step 1: 
+
+Step 1:
+
 I use tiled to draw the map as I want, to do this I need a game asset:
 
 _I used: https://pixelfrog-assets.itch.io/pixel-adventure-1 _  //I designed the rocket myself :D
@@ -37,6 +39,7 @@ Then paste that data into the array section in **TestCPP.cpp**, run the code and
 //You can change the number of row and col depending on the number of tiles in your map.
 
 //Here is the conversion code I wrote and I got confused between rows and columns (You can see in the game code I had to invert the row and column values).
+
 ![image](https://user-images.githubusercontent.com/84552830/154813935-e1495c2f-eb28-4520-80c7-1861ded2e7dd.png)
 
 //You can rewrite another conversion code that works for you (note that the Ox and Oy axes in SFML are reversed to Cartesian coordinate system)
@@ -59,4 +62,5 @@ You can modify each map by modifying the Map files in the folder **MapForm** by 
 
 
 ***My game learned a lot about Resource Manager, Rocket Stage and Game Stage from:*** 
+
 https://www.youtube.com/watch?v=ANjk6LsShRo&list=PLZd7ojlRK0bwrL8060OGurG_kaeJc_QOH
