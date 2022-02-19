@@ -42,6 +42,8 @@ _And paste that data into the array section in **TestCPP.cpp**, run the code and
 
 //You can change the number of row and col depending on the number of tiles in your map.
 
+![image](https://user-images.githubusercontent.com/84552830/154814928-1a118c19-cd4a-47e3-85d7-b554441b1190.png)
+
 //Here is the conversion code I wrote and I got confused between rows and columns (You can see in the game code I had to invert the row and column values).
 
 ![image](https://user-images.githubusercontent.com/84552830/154813935-e1495c2f-eb28-4520-80c7-1861ded2e7dd.png)
