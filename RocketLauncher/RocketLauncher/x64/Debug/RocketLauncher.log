@@ -1,0 +1,22 @@
+﻿  RocketLauncher.cpp
+C:\Users\sanka\source\repos\RocketLauncher\RocketLauncher\Sources\GameObjects\FeulCan.h(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\sanka\source\repos\RocketLauncher\RocketLauncher\Sources\GameObjects\Trap.h(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  Trap.cpp
+C:\Users\sanka\source\repos\RocketLauncher\RocketLauncher\Sources\GameObjects\Trap.h(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\sanka\source\repos\RocketLauncher\RocketLauncher\Sources\GameObjects\Trap.cpp(34,30): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\sanka\source\repos\RocketLauncher\RocketLauncher\Sources\GameObjects\Trap.cpp(34,27): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\sanka\source\repos\RocketLauncher\RocketLauncher\Sources\GameObjects\Trap.cpp(35,27): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\sanka\source\repos\RocketLauncher\RocketLauncher\Sources\GameObjects\Trap.cpp(35,24): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  GameStateBase.cpp
+C:\Users\sanka\source\repos\RocketLauncher\RocketLauncher\Sources\GameObjects\FeulCan.h(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\sanka\source\repos\RocketLauncher\RocketLauncher\Sources\GameObjects\Trap.h(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  GSWin.cpp
+C:\Users\sanka\source\repos\RocketLauncher\RocketLauncher\Sources\GameObjects\FeulCan.h(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\sanka\source\repos\RocketLauncher\RocketLauncher\Sources\GameObjects\Trap.h(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\sanka\source\repos\RocketLauncher\RocketLauncher\Sources\GameStateManager\GSWin.cpp(55,57): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+  Generating Code...
+  RocketLauncher.vcxproj -> C:\Users\sanka\source\repos\RocketLauncher\x64\Debug\RocketLauncher.exe

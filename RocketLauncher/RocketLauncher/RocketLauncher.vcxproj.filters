@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\GameManager">
+      <UniqueIdentifier>{ccc03eaf-6b9e-40b1-bb94-75a1f60c98d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameObjects">
+      <UniqueIdentifier>{a14f0520-0c43-421c-9028-8cd3db4726b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameObjects\Component">
+      <UniqueIdentifier>{906ccbb2-0d21-414f-b8f0-1093b6ec6cba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameObjects\Map">
+      <UniqueIdentifier>{0e1cc55b-8982-4b38-ae8c-bef40633f44a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameObjects\Rocket">
+      <UniqueIdentifier>{6178e4c2-1730-4aea-a0d0-824a6bb5818b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameObjects\Map\FeulCan">
+      <UniqueIdentifier>{6ec0b71f-15b5-4989-bddf-bc736e4aff16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameObjects\Map\Trap">
+      <UniqueIdentifier>{f24ab83f-18e0-4dd2-b007-0fa45002142d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameStateManager">
+      <UniqueIdentifier>{780d0f13-10d9-4630-b592-c1046f4dfb23}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="RocketLauncher.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameManager\ResourceManager.cpp">
+      <Filter>Source Files\GameManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameManager\WindowConnector.cpp">
+      <Filter>Source Files\GameManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameObjects\GameButton.cpp">
+      <Filter>Source Files\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameObjects\Animation.cpp">
+      <Filter>Source Files\GameObjects\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameObjects\Animation2.cpp">
+      <Filter>Source Files\GameObjects\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameObjects\HitBox.cpp">
+      <Filter>Source Files\GameObjects\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameObjects\FeulCan.cpp">
+      <Filter>Source Files\GameObjects\Map\FeulCan</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameObjects\Trap.cpp">
+      <Filter>Source Files\GameObjects\Map\Trap</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameObjects\Block.cpp">
+      <Filter>Source Files\GameObjects\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameObjects\Map.cpp">
+      <Filter>Source Files\GameObjects\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameObjects\RSDeath.cpp">
+      <Filter>Source Files\GameObjects\Rocket</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameObjects\RSFall.cpp">
+      <Filter>Source Files\GameObjects\Rocket</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameObjects\RSFly.cpp">
+      <Filter>Source Files\GameObjects\Rocket</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameObjects\RSSpinL1.cpp">
+      <Filter>Source Files\GameObjects\Rocket</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameObjects\RSSpinL2.cpp">
+      <Filter>Source Files\GameObjects\Rocket</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameObjects\RSSpinR1.cpp">
+      <Filter>Source Files\GameObjects\Rocket</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameObjects\RSSpinR2.cpp">
+      <Filter>Source Files\GameObjects\Rocket</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameObjects\Rocket.cpp">
+      <Filter>Source Files\GameObjects\Rocket</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameStateManager\GameStateBase.cpp">
+      <Filter>Source Files\GameStateManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameStateManager\GameStateMachine.cpp">
+      <Filter>Source Files\GameStateManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameStateManager\GSEnd.cpp">
+      <Filter>Source Files\GameStateManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameStateManager\GSIntro.cpp">
+      <Filter>Source Files\GameStateManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameStateManager\GSMenu.cpp">
+      <Filter>Source Files\GameStateManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameStateManager\GSPlay.cpp">
+      <Filter>Source Files\GameStateManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameStateManager\GSWin.cpp">
+      <Filter>Source Files\GameStateManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Application.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Sources\GameManager\ResourceManager.h">
+      <Filter>Source Files\GameManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameManager\Singleton.h">
+      <Filter>Source Files\GameManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameManager\WindowConnector.h">
+      <Filter>Source Files\GameManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\GameButton.h">
+      <Filter>Source Files\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\Animation.h">
+      <Filter>Source Files\GameObjects\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\Animation2.h">
+      <Filter>Source Files\GameObjects\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\HitBox.h">
+      <Filter>Source Files\GameObjects\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\FeulCan.h">
+      <Filter>Source Files\GameObjects\Map\FeulCan</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\Trap.h">
+      <Filter>Source Files\GameObjects\Map\Trap</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\Block.h">
+      <Filter>Source Files\GameObjects\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\Map.h">
+      <Filter>Source Files\GameObjects\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\Rocket.h">
+      <Filter>Source Files\GameObjects\Rocket</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\RSDeath.h">
+      <Filter>Source Files\GameObjects\Rocket</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\RSFall.h">
+      <Filter>Source Files\GameObjects\Rocket</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\RSFly.h">
+      <Filter>Source Files\GameObjects\Rocket</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\RSSpinL1.h">
+      <Filter>Source Files\GameObjects\Rocket</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\RSSpinL2.h">
+      <Filter>Source Files\GameObjects\Rocket</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\RSSpinR1.h">
+      <Filter>Source Files\GameObjects\Rocket</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\RSSpinR2.h">
+      <Filter>Source Files\GameObjects\Rocket</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\IRocket.h">
+      <Filter>Source Files\GameObjects\Rocket</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\IRState.h">
+      <Filter>Source Files\GameObjects\Rocket</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameStateManager\GameStateBase.h">
+      <Filter>Source Files\GameStateManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameStateManager\GameStateMachine.h">
+      <Filter>Source Files\GameStateManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameStateManager\GSEnd.h">
+      <Filter>Source Files\GameStateManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameStateManager\GSIntro.h">
+      <Filter>Source Files\GameStateManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameStateManager\GSMenu.h">
+      <Filter>Source Files\GameStateManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameStateManager\GSPlay.h">
+      <Filter>Source Files\GameStateManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameStateManager\GSWin.h">
+      <Filter>Source Files\GameStateManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\Application.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameConfig.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
